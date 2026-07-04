@@ -55,17 +55,6 @@ cv:
           - Proposed a seam-guided iterative alignment mechanism for unsupervised image stitching.
           - Designed a parallax-aware mask generation strategy to reduce artifacts in large-parallax scenes.
 
-    # research experience:
-    #   - company: Beijing Jiaotong University
-    #     position: Research Assistant
-    #     start_date: 2024-09
-    #     end_date: present
-    #     location: Beijing, China
-    #     highlights:
-    #       - Conduct research in computer vision, with a focus on image stitching, geometric modeling, event-based vision, image editing, and multimodal foundation models.
-    #       - Explore the integration of visual perception, geometric modeling, and generative models for image understanding and generation.
-    #       - Investigate HDR panoramic reconstruction using spike cameras and generative image editing models.
-
     internship experience:
       - company: Baidu Inc.
         position: Multimodal Algorithm Research Intern
@@ -120,7 +109,6 @@ cv:
       - label: Languages
         details: Chinese native, English CET-6
 
-
 design:
   theme: classic
   page:
@@ -130,8 +118,5 @@ design:
     left_margin: 1.6cm
     right_margin: 1.6cm
 
-
 locale:
   language: english
-
-
