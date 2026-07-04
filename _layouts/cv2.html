@@ -1,0 +1,218 @@
+---
+layout: default
+---
+
+{% assign cv = site.data.cv.cv %}
+{% assign design = site.data.cv.design %}
+{% assign locale = site.data.cv.locale %}
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | default: "CV" }}</h1>
+  </header>
+
+  {% if cv %}
+  <article>
+    <!-- Header -->
+    <section style="margin-bottom: 1.5rem;">
+      <h2 style="margin-bottom: 0.25rem;">{{ cv.name }}</h2>
+      <p style="margin: 0;">
+        {% if cv.location %}{{ cv.location }}{% endif %}
+        {% if cv.email %} · <a href="mailto:{{ cv.email }}">{{ cv.email }}</a>{% endif %}
+        {% if cv.phone %} · {{ cv.phone }}{% endif %}
+      </p>
+
+      {% if cv.social_networks and cv.social_networks.size > 0 %}
+      <p style="margin: 0.4rem 0 0 0;">
+        {% for s in cv.social_networks %}
+          {% if s.network == "GitHub" %}
+            <a href="https://github.com/{{ s.username }}" target="_blank" rel="noopener">{{ s.network }}</a>
+          {% elsif s.network == "Google Scholar" %}
+            <a href="https://scholar.google.com/citations?user={{ s.username }}" target="_blank" rel="noopener">{{ s.network }}</a>
+          {% else %}
+            {{ s.network }}: {{ s.username }}
+          {% endif %}
+          {% unless forloop.last %} · {% endunless %}
+        {% endfor %}
+      </p>
+      {% endif %}
+
+      <!-- PDF button -->
+      <p style="margin-top: 0.8rem;">
+        <a class="btn btn-sm z-depth-0" href="{{ '/assets/pdf/example_pdf.pdf' | relative_url }}" target="_blank" rel="noopener">
+          Download PDF
+        </a>
+      </p>
+    </section>
+
+    <!-- Research Interests -->
+    {% if cv.sections.research_interests and cv.sections.research_interests.size > 0 %}
+    <section style="margin-bottom: 1.25rem;">
+      <h3>Research Interests</h3>
+      <ul>
+        {% for item in cv.sections.research_interests %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    <!-- Education -->
+    {% if cv.sections.education and cv.sections.education.size > 0 %}
+    <section style="margin-bottom: 1.25rem;">
+      <h3>Education</h3>
+      {% for e in cv.sections.education %}
+      <div style="margin-bottom: 0.9rem;">
+        <p style="margin: 0;">
+          <strong>{{ e.institution }}</strong>
+          {% if e.location %} — {{ e.location }}{% endif %}
+        </p>
+        <p style="margin: 0;">
+          {{ e.degree }}{% if e.area %}, {{ e.area }}{% endif %}
+          {% if e.start_date or e.end_date %}
+            ({{ e.start_date }}{% if e.end_date %} to {{ e.end_date }}{% endif %})
+          {% endif %}
+        </p>
+        {% if e.highlights and e.highlights.size > 0 %}
+        <ul>
+          {% for h in e.highlights %}
+            <li>{{ h }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </section>
+    {% endif %}
+
+    <!-- Publications -->
+    {% if cv.sections.publications and cv.sections.publications.size > 0 %}
+    <section style="margin-bottom: 1.25rem;">
+      <h3>Publications</h3>
+      {% for p in cv.sections.publications %}
+      <div style="margin-bottom: 0.9rem;">
+        <p style="margin: 0;">
+          <strong>{{ p.title }}</strong>
+        </p>
+        {% if p.authors and p.authors.size > 0 %}
+        <p style="margin: 0;">{{ p.authors | join: ", " }}</p>
+        {% endif %}
+        <p style="margin: 0;">
+          {% if p.journal %}{{ p.journal }}{% endif %}
+          {% if p.date %} ({{ p.date }}){% endif %}
+        </p>
+        {% if p.highlights and p.highlights.size > 0 %}
+        <ul>
+          {% for h in p.highlights %}
+            <li>{{ h }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </section>
+    {% endif %}
+
+    <!-- Experience -->
+    {% if cv.sections.experience and cv.sections.experience.size > 0 %}
+    <section style="margin-bottom: 1.25rem;">
+      <h3>Experience</h3>
+      {% for x in cv.sections.experience %}
+      <div style="margin-bottom: 0.9rem;">
+        <p style="margin: 0;">
+          <strong>{{ x.position }}</strong> — {{ x.company }}
+          {% if x.location %} ({{ x.location }}){% endif %}
+        </p>
+        <p style="margin: 0;">
+          {% if x.start_date %}{{ x.start_date }}{% endif %}
+          {% if x.end_date %} to {{ x.end_date }}{% endif %}
+        </p>
+        {% if x.highlights and x.highlights.size > 0 %}
+        <ul>
+          {% for h in x.highlights %}
+            <li>{{ h }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </section>
+    {% endif %}
+
+    <!-- Projects -->
+    {% if cv.sections.projects and cv.sections.projects.size > 0 %}
+    <section style="margin-bottom: 1.25rem;">
+      <h3>Projects</h3>
+      {% for pr in cv.sections.projects %}
+      <div style="margin-bottom: 0.9rem;">
+        <p style="margin: 0;"><strong>{{ pr.name }}</strong></p>
+        <p style="margin: 0;">
+          {% if pr.summary %}{{ pr.summary }}{% endif %}
+          {% if pr.location %} — {{ pr.location }}{% endif %}
+        </p>
+        <p style="margin: 0;">
+          {% if pr.start_date %}{{ pr.start_date }}{% endif %}
+          {% if pr.end_date %} to {{ pr.end_date }}{% endif %}
+        </p>
+        {% if pr.highlights and pr.highlights.size > 0 %}
+        <ul>
+          {% for h in pr.highlights %}
+            <li>{{ h }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </section>
+    {% endif %}
+
+    <!-- Patents -->
+    {% if cv.sections.patents and cv.sections.patents.size > 0 %}
+    <section style="margin-bottom: 1.25rem;">
+      <h3>Patents</h3>
+      <ul>
+        {% for pt in cv.sections.patents %}
+          <li>
+            <strong>{{ pt.name }}</strong>
+            {% if pt.date %} ({{ pt.date }}){% endif %}
+            {% if pt.highlights and pt.highlights.size > 0 %}
+              <ul>
+                {% for h in pt.highlights %}
+                  <li>{{ h }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    <!-- Awards -->
+    {% if cv.sections.awards and cv.sections.awards.size > 0 %}
+    <section style="margin-bottom: 1.25rem;">
+      <h3>Awards</h3>
+      <ul>
+        {% for a in cv.sections.awards %}
+          <li>{{ a }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    <!-- Skills -->
+    {% if cv.sections.skills and cv.sections.skills.size > 0 %}
+    <section style="margin-bottom: 1.25rem;">
+      <h3>Skills</h3>
+      <ul>
+        {% for sk in cv.sections.skills %}
+          <li><strong>{{ sk.label }}:</strong> {{ sk.details }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+  </article>
+  {% else %}
+    <p>CV data not found. Please check <code>_data/cv.yml</code>.</p>
+  {% endif %}
+</div>
