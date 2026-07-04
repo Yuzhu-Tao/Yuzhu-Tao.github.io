@@ -9,8 +9,9 @@ cv:
       username: yuzhu-tao
     - network: Google Scholar
       username: V3IxgpwAAAAJ
+
   sections:
-    research interests:
+    research_interests:
       - Computer Vision, Image Stitching, Image Editing Models, Multimodal Large Language Models, Event-based Vision.
 
     education:
@@ -40,7 +41,7 @@ cv:
         authors:
           - Yuzhu Tao
         journal: Under Review at ACM Multimedia, CCF-A
-        date: 2026
+        date: "2026"
         highlights:
           - Proposed a hybrid spike-camera and RGB-camera framework for HDR panoramic color image reconstruction from one-second spike acquisition.
           - Developed a dual-branch spike reconstruction pipeline based on temporal-window reconstruction and temporal-difference modeling.
@@ -50,16 +51,15 @@ cv:
         authors:
           - Yuzhu Tao
         journal: IEEE Transactions on Circuits and Systems for Video Technology, CCF-B
-        date: 2026
+        date: "2026"
         highlights:
           - Proposed a seam-guided iterative alignment mechanism for unsupervised image stitching.
           - Designed a parallax-aware mask generation strategy to reduce artifacts in large-parallax scenes.
 
-    internship experience:
+    experience:
       - company: Baidu Inc.
         position: Multimodal Algorithm Research Intern
         start_date: 2026-03
-        end_date: present
         location: China
         highlights:
           - Conduct algorithm research on image understanding, image editing, parameter prediction, and generative model optimization.
@@ -69,7 +69,7 @@ cv:
           - Achieved an F1-score of 92% on the test set.
           - Developed pose-aware alignment and structure-aware completion methods for AI portrait outfit replacement.
 
-    selected projects:
+    projects:
       - name: Panoramic Image Stitching for Equipment Rooms Based on Spherical Projection
         start_date: 2024-09
         end_date: 2025-09
@@ -84,12 +84,12 @@ cv:
 
     patents:
       - name: Chinese Invention Patent for HDR Panoramic Color Image Reconstruction
-        date: 2026
+        date: "2026"
         highlights:
           - "Patent No.: 2026100594905."
           - Related to panoramic HDR color image reconstruction from spike acquisition and generative colorization.
 
-    awards and honors:
+    awards:
       - First-Class Graduate Scholarship, Beijing Jiaotong University, twice.
       - Outstanding Student Cadre, Beijing Jiaotong University.
       - Outstanding Graduate CPC Member, Beijing Jiaotong University.
@@ -107,7 +107,7 @@ cv:
       - label: Multimodal Models
         details: Qwen-VL, Qwen-Image-Edit, Gemini, SAM
       - label: Languages
-        details: Chinese native, English CET-6
+        details: Chinese (native), English (CET-6)
 
 design:
   theme: classic
