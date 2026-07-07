@@ -4,8 +4,8 @@ title: about
 permalink: /
 
 subtitle: >
-  M.Sc. Student in Artificial Intelligence at Beijing Jiaotong University.<br>
-  Researching Computer Vision, Image Generation, Image Editing, and Multimodal Learning.
+  M.Sc. Student in Artificial Intelligence<br>
+  Beijing Jiaotong University
 
 profile:
   align: right
@@ -27,47 +27,43 @@ latest_posts:
 I am Yuzhu Tao, a master's student in Artificial Intelligence at 
 Beijing Jiaotong University.
 
-My research focuses on **computer vision and multimodal intelligence**, 
-with particular interests in **image generation, image editing, and 
-vision-language models**.
+My research lies at the intersection of **computer vision and 
+multimodal intelligence**, focusing on **image generation, image 
+editing, and vision-language models**.
 
-I aim to develop reliable and controllable visual systems that enable 
-machines to **perceive, understand, and create visual content**.
+I am interested in building intelligent visual systems that can 
+**understand, reconstruct, and create visual content** by combining 
+deep learning, generative models, and multimodal foundation models.
 
-My current research explores:
 
-- **Generative Models for Image Editing**
-  
-  Developing controllable image generation and editing methods with 
+## Research Interests
+
+- **Image Generation and Editing**  
+  Developing controllable visual generation and editing methods with 
   multimodal foundation models.
 
-- **Vision-Language Models**
+- **Vision-Language Models**  
+  Exploring how large multimodal models understand and reason about 
+  visual information.
 
-  Exploring how large multimodal models can understand visual information 
-  and perform complex visual reasoning.
-
-- **Robust Visual Perception**
-
-  Investigating visual reconstruction and perception under challenging 
-  real-world conditions, including event-based vision and image stitching.
+- **Visual Reconstruction**  
+  Studying robust visual perception in challenging scenarios, including 
+  event-based vision and image stitching.
 
 
-## Research Highlights
+## Selected Research Highlights
 
-- Explored multimodal foundation models for controllable image understanding 
-  and editing, including Qwen-VL and Qwen-Image-Edit.
+- Multimodal foundation models for visual understanding and image editing.
 
-- Developed HDR panoramic image reconstruction methods by combining 
-  event-based vision and generative models.
+- HDR panoramic imaging by combining event-based vision and generative models.
 
-- Investigated robust image stitching algorithms for large-parallax 
-  real-world scenes.
+- Robust image stitching under large-parallax real-world scenes.
 
 
-For more details, please see my [CV](/cv/), publications, and projects.
+For more details, please visit my [CV](/cv/), publications, and projects.
 
 
-<div style="text-align:center; margin-top:50px;">
+<div style="text-align:center; margin-top:45px;">
 <i>
 Towards intelligent machines that can see, understand, and create.
 </i>
