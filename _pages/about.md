@@ -4,7 +4,9 @@ title: about
 permalink: /
 
 subtitle: >
-  Master's student at Beijing Jiaotong University.
+  M.Sc. Student at Beijing Jiaotong University.<br>
+  Researching Computer Vision, Image Generation, 
+  Image Editing, and Multimodal Learning.
 
 profile:
   align: right
@@ -15,10 +17,10 @@ selected_papers: true
 social: true
 
 announcements:
-  enabled: false
+  enabled: true
+  scrollable: true
+  limit: 3
 
 latest_posts:
   enabled: false
 ---
-
-Hello! I am Yuzhu Tao.
