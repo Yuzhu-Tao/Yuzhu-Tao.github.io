@@ -3,7 +3,6 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 # cv_pdf: /assets/rendercv/rendercv_output/Yuzhu_Tao_CV.pdf # path to your CV PDF file
 email: taoyuzhu@bjtu.edu.cn # your email address
-github_id: yuzhu-tao
 scholar_userid: V3IxgpwAAAAJ # your Google Scholar ID
 # rss_icon: true # comment this line to hide the RSS icon
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
