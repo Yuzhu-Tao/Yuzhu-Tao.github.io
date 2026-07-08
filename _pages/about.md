@@ -21,8 +21,7 @@ latest_posts:
   enabled: false
 ---
 
-I am Yuzhu Tao, a master's student in Artificial Intelligence at 
-Beijing Jiaotong University.
+I am Yuzhu Tao, a master's student in Artificial Intelligence at Beijing Jiaotong University.
 
 My research lies at the intersection of **computer vision and 
 multimodal intelligence**, focusing on **image generation, image 
@@ -60,8 +59,10 @@ deep learning, generative models, and multimodal foundation models.
 For more details, please visit my cv, publications, and projects.
 
 
-<div style="text-align:center; margin-top:45px;">
+<div align="center">
+
 <i>
-Exploring the beauty of the visual world through intelligent perception.
+Exploring the beauty of visual intelligence and discovering the world through images.
 </i>
+
 </div>
