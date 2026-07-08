@@ -5,10 +5,9 @@
     "email": "taoyuzhu@bjtu.edu.cn",
     "phone": "+86 18849120956",
     "location": {
-      "city": "Beijing",
+      "city": "Beijing"
       "countryCode": "CN"
     },
-    "summary": "Master's student in Artificial Intelligence at Beijing Jiaotong University. Research interests include computer vision, image generation, image editing, multimodal learning, and event-based vision.",
     "profiles": [
       {
         "network": "GitHub",
@@ -64,16 +63,17 @@
       "location": "China",
       "startDate": "2026-03",
       "endDate": "Present",
-      "summary": "Conduct research on multimodal models, image understanding, image editing, and generative models.",
       "highlights": [
-        "Built structured datasets for image editing operators and editing instructions.",
-        "Fine-tuned Qwen3-VL-4B with LoRA for intelligent photo-editing parameter prediction.",
-        "Designed a two-stage training strategy for image understanding and before-after editing difference modeling.",
-        "Achieved 92% F1-score on the test set.",
-        "Developed pose-aware alignment and structure-aware completion methods for AI portrait outfit replacement."
+        "Conduct research on multimodal foundation models, focusing on visual understanding, image editing, and controllable image generation.",
+        "Developed structured datasets for image editing instruction understanding, including single-image editing data and paired before-after editing data.",
+        "Fine-tuned Qwen3-VL-4B with LoRA for intelligent image-editing parameter prediction.",
+        "Designed a two-stage training strategy extending the model from single-image understanding to before-after editing difference modeling, achieving 92% F1-score on the test set.",
+        "Developed an AI portrait editing pipeline with pose-aware alignment and structure-aware image completion.",
+        "Applied SAM3-based segmentation and Qwen-Image-Edit-2509 for region-aware completion and garment replacement."
       ]
     }
   ],
+
 
 
   "publications": [
@@ -97,8 +97,8 @@
       "name": "Panoramic Image Stitching for Equipment Rooms Based on Spherical Projection",
       "startDate": "2024-09",
       "endDate": "2025-09",
-      "summary": "Developed a fast panoramic stitching algorithm for equipment-room scenarios with limited camera viewpoints.",
       "highlights": [
+        "Developed a fast panoramic stitching algorithm for equipment-room scenarios with limited camera viewpoints.",
         "Achieved panoramic reconstruction from 30 images within one second.",
         "Estimated focal length using cylindrical projection models and dynamic FOV information.",
         "Built spherical projection and equirectangular panorama generation pipelines.",
@@ -109,6 +109,11 @@
 
 
   "awards": [
+    {
+      "title": "Chinese Invention Patent: Method and System for High-Speed High-Dynamic-Range Color Panoramic Image Reconstruction",
+      "date": "2026",
+      "awarder": "Patent Application No. 2026100594905"
+    },
     {
       "title": "First-Class Graduate Scholarship",
       "date": "2025",
@@ -175,25 +180,6 @@
         "SAM",
         "Gemini"
       ]
-    },
-    {
-      "name": "Languages",
-      "keywords": [
-        "Chinese (Native)",
-        "English (CET-6)"
-      ]
-    }
-  ],
-
-
-  "languages": [
-    {
-      "language": "Chinese",
-      "fluency": "Native"
-    },
-    {
-      "language": "English",
-      "fluency": "CET-6"
     }
   ]
 }
