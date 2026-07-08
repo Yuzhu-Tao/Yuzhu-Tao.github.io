@@ -3,9 +3,6 @@ layout: about
 title: about
 permalink: /
 
-subtitle: >
-  M.Sc. Student in Artificial Intelligence<br>
-  Beijing Jiaotong University
 
 profile:
   align: right
