@@ -77,7 +77,7 @@
   "publications": [
     {
       "name": "Panoramic HDR Color Image from One-Second Spike Acquisition",
-      "publisher": "ACM Multimedia (Under Review, CCF-A)",
+      "publisher": "ACM Multimedia ( CCF-A)",
       "releaseDate": "2026",
       "summary": "Proposed a hybrid spike-camera and RGB-camera framework for HDR panoramic color image reconstruction from one-second spike acquisition. Developed a dual-branch reconstruction pipeline and applied Qwen-Image-Edit-2509 with LoRA for HDR panoramic colorization."
     },
