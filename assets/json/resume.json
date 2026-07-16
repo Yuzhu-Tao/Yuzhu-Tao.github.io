@@ -66,7 +66,7 @@
           "Conduct research on multimodal models, image understanding, and image editing generation.",
           "Built image editing instruction datasets for single-image and before-after editing understanding.",
           "Fine-tuned Qwen3-VL-4B with LoRA for intelligent editing parameter prediction.",
-          "Designed a two-stage training strategy achieving 92% F1-score on the test set.",
+          "Designed a two-stage training strategy achieving 86% F1-score on the test set.",
           "Developed portrait editing pipelines using SAM3 and Qwen-Image-Edit-2509."
         ]
       }
