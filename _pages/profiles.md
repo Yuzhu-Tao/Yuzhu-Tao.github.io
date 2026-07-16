@@ -7,7 +7,15 @@ nav: true
 nav_order: 4
 ---
 
-Currently under development—stay tuned!
+**
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px;">
+  <img src="/assets/img/star.jpg" width="120">
+  <div>
+    <h3>✨ Currently under development</h3>
+    <p>正在施展魔法，敬请期待...</p>
+  </div>
+</div>
+**
 
 ## Photography
 
