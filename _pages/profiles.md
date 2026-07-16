@@ -1,16 +1,32 @@
 ---
-layout: profiles
-permalink: /people/
-title: hobbies
-description: members of the lab or group
+layout: page
+permalink: /beyond-research/
+
+title: Beyond Research
 nav: true
 nav_order: 4
 ---
 
-dsaf
-profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: right
-    image: scene1.jpg
-    content: about_einstein.md
+# Currently under development—stay tuned!
+
+## Photography
+
+Some beautiful moments captured during my journey.
+
+<img src="/assets/img/scene1.jpg" width="600">
+
+
+## Travel
+
+Exploring places, cultures, and nature beyond research.
+
+
+<img src="/assets/img/travel1.jpg" width="600">
+
+
+## Life Moments
+
+Memories with friends, colleagues, and my research group.
+
+
+<img src="/assets/img/team1.jpg" width="600">
