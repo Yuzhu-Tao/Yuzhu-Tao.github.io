@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-# Currently under development—stay tuned!
+Currently under development—stay tuned!
 
 ## Photography
 
