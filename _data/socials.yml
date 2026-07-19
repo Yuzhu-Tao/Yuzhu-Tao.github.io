@@ -4,6 +4,10 @@
 # cv_pdf: /assets/rendercv/rendercv_output/Yuzhu_Tao_CV.pdf # path to your CV PDF file
 email: taoyuzhu@bjtu.edu.cn # your email address
 scholar_userid: V3IxgpwAAAAJ # your Google Scholar ID
+custom_social:
+  logo: https://g.csdnimg.cn/static/logo/favicon32.ico
+  title: CSDN Blog
+  url: https://blog.csdn.net/qq_52144119
 # rss_icon: true # comment this line to hide the RSS icon
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
