@@ -6,12 +6,13 @@ profile:
   align: right
   image: yuzhutao.jpg
   image_circular: false
+  more_info: <p>Beijing Jiaotong University</p>
 selected_papers: true
 social: true
 announcements:
-  enabled: false
-  scrollable: false
-  limit: 3
+  enabled: true
+  scrollable: true
+  limit: 2
 latest_posts:
   enabled: false
 ---
