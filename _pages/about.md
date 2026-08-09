@@ -52,7 +52,7 @@ deep learning, generative models, and multimodal foundation models.
 - Robust image stitching under large-parallax real-world scenes.
 
 
-For more details, please visit my cv, publications, and projects.
+For more details, please visit my cv and publications.
 
 
 <div align="center">
