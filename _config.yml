@@ -12,6 +12,9 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   image editing, event-based vision, and multimodal large language models.
   # A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
+  <div style="text-align: center;">
+    <i>Exploring the beauty of visual intelligence and discovering the world through images.</i>
+  </div>
 
 keywords: computer vision,image stitching,image editing,event camera,multimodal learning,large language models. # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -83,7 +86,7 @@ al_folio:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: false
