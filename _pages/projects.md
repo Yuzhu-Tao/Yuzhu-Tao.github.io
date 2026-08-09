@@ -10,17 +10,24 @@ horizontal: false
 ---
 Currently Under Development. Stay Tuned!
 
-<div style="margin-bottom: 2.5rem;">
+<div style="
+  max-width: 620px;
+  aspect-ratio: 16 / 9;
+  margin: 1.5rem auto;
+">
 
-  <video controls width="100%" style="max-width: 900px; display: block; margin: 0 auto; border-radius: 10px;">
-    <source src="/assets/video/panorama.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+  <video
+    controls
+    playsinline
+    preload="metadata"
+    style="
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    ">
+    <source src="{{ '/assets/video/panorama.mp4' | relative_url }}" type="video/mp4">
   </video>
-
-  <p style="margin-top: 0.8rem; text-align: center; font-size: 0.95rem;">
-    Video demonstration of
-    <i>Fast-Rotating Panoramic HDR Reconstruction from Single-Second Spikes</i>.
-  </p>
 
 </div>
 
