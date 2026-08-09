@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Our paper, "Seam-Guided Unsupervised Image Stitching With Parallax-Aware Mask Generation," has been accepted for IEEE Transactions on Circuits and Systems for Video Technology (**IEEE TCSVT**).
+🎉 Our paper, "Seam-Guided Unsupervised Image Stitching With Parallax-Aware Mask Generation," has been accepted for IEEE Transactions on Circuits and Systems for Video Technology (**IEEE TCSVT**) 2026!
