@@ -55,10 +55,3 @@ deep learning, generative models, and multimodal foundation models.
 For more details, please visit my cv and publications.
 
 
-<div align="center">
-
-<i>
-Exploring the beauty of visual intelligence and discovering the world through images.
-</i>
-
-</div>
