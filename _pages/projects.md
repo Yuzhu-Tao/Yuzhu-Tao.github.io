@@ -3,12 +3,26 @@ layout: page
 title: projects
 permalink: /projects/
 description: A growing collection of my cool projects.
-nav: false
+nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
 Currently Under Development. Stay Tuned!
+
+<div style="margin-bottom: 2.5rem;">
+
+  <video controls width="100%" style="max-width: 900px; display: block; margin: 0 auto; border-radius: 10px;">
+    <source src="/assets/video/panorama.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <p style="margin-top: 0.8rem; text-align: center; font-size: 0.95rem;">
+    Video demonstration of
+    <i>Fast-Rotating Panoramic HDR Reconstruction from Single-Second Spikes</i>.
+  </p>
+
+</div>
 
 <!-- pages/projects.md -->
 <div class="projects">
