@@ -3,7 +3,7 @@ layout: page
 permalink: /beyond-research/
 
 title: Beyond Research
-nav: true
+nav: false
 nav_order: 4
 ---
 
