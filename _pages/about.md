@@ -415,9 +415,9 @@ nav_order: 1
       font-size: 16px;
       line-height: 1.8;
     ">
-      Outstanding Undergraduate Graduate of Hebei Province, 2024<br>
-      First-Class Scholarship for Academic Excellence, 2024 & 2025<br>
-      Outstanding Student Leader, Beijing Jiaotong University, 2025
+      First-Class Scholarship for Academic Excellence, 2021-2025<br>
+      Outstanding Student, Beijing Jiaotong University, 2025<br>
+      Outstanding Undergraduate Graduate of Hebei Province, 2024
     </div>
 
   </section>
