@@ -31,6 +31,6 @@ robust image stitching under large parallax, and generative image editing
 with multimodal foundation models.
 
 For more details, please see my
-[CV](/cv/), [Publications](/publications/), and [Projects](/projects/).
+[Publications](/publications/), and [Projects](/projects/).
 
 
