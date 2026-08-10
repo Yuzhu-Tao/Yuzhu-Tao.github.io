@@ -150,16 +150,14 @@ nav_order: 1
     ">
 
       <img
-        src="{{ '/assets/img/yuzhutao_2.jpg' | relative_url }}"
+        src="{{ '/assets/img/yuzhutao.jpg' | relative_url }}"
         alt="Portrait of Yuzhu Tao"
         style="
           width: 100%;
-          height: 300px;
-          object-fit: cover;
-          object-position: center top;
-          border-radius: 11px;
+          height: auto;
           display: block;
-          margin-bottom: 20px;
+          border-radius: 11px;
+          margin-bottom: 18px
         "
       >
 
