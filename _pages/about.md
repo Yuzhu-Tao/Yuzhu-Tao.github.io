@@ -206,7 +206,6 @@ nav_order: 1
       ">
         <a href="https://github.com/Yuzhu-Tao" target="_blank">GitHub</a>
         <a href="https://scholar.google.com/citations?user=V3IxgpwAAAAJ" target="_blank">Scholar</a>
-        <a href="{{ '/cv/' | relative_url }}">CV</a>
       </div>
 
     </aside>
@@ -312,8 +311,6 @@ nav_order: 1
 
         <div style="font-size: 14px;">
           <a href="{{ '/publications/' | relative_url }}">[Paper]</a>
-          &nbsp;
-          <a href="{{ '/projects/' | relative_url }}">[Project]</a>
           &nbsp;
           <a href="{{ '/projects/' | relative_url }}">[Video]</a>
         </div>
