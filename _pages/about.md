@@ -137,7 +137,7 @@ nav_order: 1
 
     <!-- ================= RIGHT PROFILE ================= -->
     <aside style="
-      width: 320px;
+      width: 360px;
       box-sizing: border-box;
       padding: 20px 20px 24px;
       border: 1px solid #e7e9ec;
@@ -154,7 +154,7 @@ nav_order: 1
         alt="Portrait of Yuzhu Tao"
         style="
           width: 100%;
-          height: 430px;
+          height: 300px;
           object-fit: cover;
           object-position: center top;
           border-radius: 11px;
