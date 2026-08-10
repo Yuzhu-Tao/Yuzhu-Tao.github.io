@@ -150,7 +150,7 @@ nav_order: 1
     ">
 
       <img
-        src="{{ '/assets/img/yuzhutao.jpg' | relative_url }}"
+        src="{{ '/assets/img/yuzhutao_2.jpg' | relative_url }}"
         alt="Portrait of Yuzhu Tao"
         style="
           width: 100%;
