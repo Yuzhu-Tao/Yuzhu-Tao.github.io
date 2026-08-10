@@ -34,7 +34,7 @@ horizontal: false
     text-align: center;
     font-size: 0.95rem;
   ">
-    Video demonstration of
+   
     <i>Fast-Rotating Panoramic HDR Reconstruction from Single-Second Spikes</i>.
   </p>
 
