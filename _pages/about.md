@@ -152,7 +152,7 @@ nav_order: 1
       ">
 
         <img
-          src="{{ '/assets/img/panorama.jpg' | relative_url }}"
+          src="{{ '/assets/img/panoramic.jpg' | relative_url }}"
           alt="Fast-Rotating Panoramic HDR Reconstruction"
           style="
             width: 180px;
@@ -224,7 +224,7 @@ nav_order: 1
       ">
 
         <img
-          src="{{ '/assets/img/stitching.jpg' | relative_url }}"
+          src="{{ '/assets/img/publication_preview/seam.png' | relative_url }}"
           alt="Seam-Guided Image Stitching"
           style="
             width: 180px;
