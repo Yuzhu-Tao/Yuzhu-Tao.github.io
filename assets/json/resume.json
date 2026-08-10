@@ -66,7 +66,13 @@
         "Boxin Shi",
         "Yao Zhao"
       ],
-      "summary": "Problem: capturing panoramic HDR images during fast rotation is challenging due to motion blur and overexposure. Solution: proposed a side-by-side hybrid camera system requiring no spatial or temporal alignment; designed a spike-based panoramic reconstruction method and a colorization module based on a fine-tuned multimodal large language model; built a comprehensive dataset with synthetic and real-world spikes for HDR panoramic reconstruction and colorization. Result: reconstructed full-color panoramic HDR images from one-second spike acquisition under fast-rotation conditions."
+      "highlights": [
+  "Problem: Capturing panoramic HDR images during fast rotation is challenging due to motion blur and overexposure.",
+  "Solution: Proposed a side-by-side hybrid camera system requiring no spatial or temporal alignment; designed a spike-based panoramic reconstruction method and a colorization module based on a fine-tuned multimodal large language model; built a comprehensive dataset with synthetic and real-world spikes for HDR panoramic reconstruction and colorization.",
+  "Result: Reconstructed full-color panoramic HDR images from one-second spike acquisition under fast-rotation conditions."
+]
+
+    
     },
     {
       "name": "Seam-Guided Unsupervised Image Stitching with Parallax-Aware Mask Generation",
@@ -81,7 +87,12 @@
         "Hong Li",
         "Shikui Wei"
       ],
-      "summary": "Problem: image stitching under large parallax is challenging due to the conflict between content alignment and shape preservation, while spatially varying transformations often cause unexpected distortions. Solution: designed an edge-enhanced mask generation module to distinguish large-parallax regions and suppress excessive distortions; proposed a seam-guided alignment strategy that iteratively refines local registration for improved stitching consistency; built a new parallax dataset to improve generalization. Result: effectively removes misaligned regions while maintaining shape consistency, especially in challenging parallax scenarios."
+       "highlights": [
+         "Problem: image stitching under large parallax is challenging due to the conflict between content alignment and shape preservation, while spatially varying transformations often cause unexpected distortions.",
+         "Solution: designed an edge-enhanced mask generation module to distinguish large-parallax regions and suppress excessive distortions; proposed a seam-guided alignment strategy that iteratively refines local registration for improved stitching consistency; built a new parallax dataset to improve generalization.",
+         "Result: effectively removes misaligned regions while maintaining shape consistency, especially in challenging parallax scenarios."
+       ]
+
     }
   ],
 
